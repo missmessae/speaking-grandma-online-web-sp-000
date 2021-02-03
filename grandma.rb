@@ -6,6 +6,8 @@ def speak_to_grandma(convo)
     return "HUH?! SPEAK UP, SONNY!"
   elsif convo == convo.upcase
     return "NO, NOT SINCE 1938!"
+  elsif convo == convo.capitalize
+    return "HUH?! SPEAK UP, SONNY!"
   end
 end
 # Whatever you say to grandma, she should respond with
