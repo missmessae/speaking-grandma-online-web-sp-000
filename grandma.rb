@@ -2,7 +2,7 @@
 def speak_to_grandma(convo)
   if convo == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
-  elsif convo == !convo.downcase || convo == !convo.capitalize
+  elsif convo == convo.downcase || convo == convo.capitalize
     return "HUH?! SPEAK UP, SONNY!"
   elsif convo == convo.upcase
     return "NO, NOT SINCE 1938!"
